@@ -1,0 +1,20 @@
+<div class="transaction-form">
+  <h2>Add Transaction</h2>
+
+  <label>Description</label>
+  <input [(ngModel)]="description" placeholder="Enter description" />
+
+  <label>Amount</label>
+  <input [(ngModel)]="amount" type="number" />
+
+  <label>Type</label>
+  <select [(ngModel)]="type">
+    <option value="income">Income</option>
+    <option value="expense">Expense</option>
+  </select>
+
+  <button (click)="submit()">
+    <i class="fas fa-plus-circle"></i> Add Transaction
+  </button>
+</div>
+

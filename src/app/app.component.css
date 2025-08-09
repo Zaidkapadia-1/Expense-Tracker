@@ -1,0 +1,39 @@
+h1 {
+  text-align: center;
+  color: #fff;
+  background: #0D47A1;
+  padding: 20px 0;
+  margin-bottom: 30px;
+  border-radius: 0 0 20px 20px;
+}
+
+.transaction-header {
+  max-width: 500px;
+  margin: 0 auto 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transaction-header h2 {
+  color: #0D47A1;
+}
+
+.clear-btn {
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.clear-btn:hover {
+  background: #d32f2f;
+  transform: translateY(-4px);
+}

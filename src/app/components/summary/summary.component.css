@@ -1,0 +1,26 @@
+.summary {
+  max-width: 500px;
+  margin: 0 auto 30px;
+  padding: 20px 24px;
+  background: #E3F2FD;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.08);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.summary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.1);
+}
+
+.summary h2 {
+  color: #0D47A1;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.summary p {
+  color: #0D47A1;
+  font-size: 1.1rem;
+  margin-bottom: 12px;
+}

@@ -1,0 +1,13 @@
+<div class="transaction-list-wrapper">
+  
+  
+  <ul class="transaction-list">
+    <li *ngFor="let transaction of transactions; let i = index">
+      <span [ngClass]="transaction.type">
+        {{transaction.description}} - {{transaction.amount | currency:'INR'}} 
+      </span>
+      <button aria-label="Delete transaction" (click)="onDelete(i)">🦅 Delete</button>
+    </li>
+  </ul>
+
+</div>

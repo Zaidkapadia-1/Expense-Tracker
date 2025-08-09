@@ -1,0 +1,78 @@
+.transaction-list-wrapper {
+  background: #edf5ff;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.1);
+  margin-bottom: 20px;
+}
+
+.transaction-list-wrapper h2 {
+  color: #094abf;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.clear-all {
+  padding: 10px 20px;
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+  float: right;
+}
+
+.clear-all:hover {
+  background: #d32f2f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.20);
+}
+
+.transaction-list {
+  list-style: none;
+  padding: 0;
+}
+
+.transaction-list li {
+  background: #d0e9ff;
+  padding: 12px 16px;
+  border-radius: 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.transaction-list span.income {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.transaction-list span.expense {
+  color: #f44336;
+  font-weight: bold;
+}
+
+.transaction-list button {
+  padding: 6px 12px;
+  background: #ff5252;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 0.1);
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.transaction-list button:hover {
+  background: #d32f2f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.20);
+}
